@@ -9,8 +9,8 @@ import Input from "../Input/Input";
 import Messages from "../Messages/Messages";
 import TextContainer from "../TextContainer/TextContainer";
 
-// const ENDPOINT = "https://chat-app-backend-0pf2.onrender.com/";
-const ENDPOINT = "http://localhost:5000";
+const ENDPOINT = "https://chat-app-backend-0pf2.onrender.com/";
+// const ENDPOINT = "http://localhost:5000";
 
 
 let socket;
