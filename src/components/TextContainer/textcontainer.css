@@ -4,13 +4,14 @@
     margin-left: 100px;
     color: white;
     height: 60%;
-    justify-content: space-between;
+    justify-content: flex-start;
   }
   
   .activeContainer {
     display: flex;
     align-items: center;
-    margin-bottom: 50%;
+    height: fit-content;
+    /* margin-bottom: 50%; */
   }
   
   .activeItem {
@@ -24,6 +25,34 @@
   
   .textContainer h1 {
     margin-bottom: 0px;
+  }
+
+  .help {
+    background-color: #828282;
+    padding: 0 1rem ;
+    border-radius: 10px;
+    margin-top: 1rem;
+  }
+
+  .help :hover {
+    /* background-color: brown; */
+    /* background: #2979FF; */
+    color: yellow;
+  }
+
+  .current-users {
+    background-color: #828282;
+    padding: 0 1rem ;
+    margin-top: 1rem;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  }
+
+  .header-div{
+    background-color: #2979FF;
+    color: white;
+    padding-left: 2rem ;
+    border-radius: 10px;
   }
   
   @media (min-width: 320px) and (max-width: 1200px) {
