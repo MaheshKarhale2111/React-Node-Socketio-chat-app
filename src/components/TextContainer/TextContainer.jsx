@@ -1,7 +1,6 @@
 import React from "react";
 
 import onlineIcon from "../icons/onlineIcon.png";
-import { Link } from "react-router-dom";
 
 import "./textcontainer.css";
 
